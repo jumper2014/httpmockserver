@@ -1,0 +1,38 @@
+[
+  {
+    "request" :
+    {
+      "method" : "get",
+      "uri" : "/"
+    },
+    "response" :
+    {
+      "format": "text",
+      "content" : "http mock server"
+    }
+  },
+
+  {
+    "request" :
+    {
+      "method" : "post",
+      "uri" : "/user",
+      "format" : "json",
+      "content" :
+      {
+        "id" : "123"
+      }
+    },
+    "response" :
+    {
+      "format": "json",
+      "content" :
+      {
+        "name" : "python"
+      },
+      "status_code": 201
+    }
+  }
+
+
+]
